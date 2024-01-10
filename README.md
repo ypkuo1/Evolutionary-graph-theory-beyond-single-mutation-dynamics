@@ -7,7 +7,7 @@ Spatially-resolved datasets are revolutionizing knowledge in molecular biology, 
 g++ -std=c++11 Crossing.cpp -o Crossing
 ```
 
-2. Running the executable
+2. Running the executable:
 ```bash
 #input: graph in edge list representation, output file, number of runs, mutation rate, selection on the intermediate mutatnt
 ./Crossing graphs/edgelist.txt results/out.txt 10000000 2e-6 -0.002
